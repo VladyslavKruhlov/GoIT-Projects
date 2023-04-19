@@ -5,21 +5,27 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        MyHashMap<String, Integer> nod = new MyHashMap<>();
-        nod.put("S", 1);
-        nod.put("R", 2);
-        nod.remove("S");
-        //nod.clear();
-        System.out.println(nod.get("S"));
-    }
+
+//          HashMap
+
+//        MyHashMap<String, Integer> nod = new MyHashMap<>();
+//        nod.put("S", 1);
+//        nod.put("R", 2);
+//        nod.remove("S");
+//        //nod.clear();
+//        System.out.println(nod.get("S"));
+//    }
+//
+//          LinkedList
+
 //        MyLinkedList<Integer> my = new MyLinkedList<>();
 //        my.add(1);
 //        my.add(2);
 //        my.add(3);
 //        my.add(4);
 //        my.add(5);
-//        my.remove(0);
-//        System.out.println(my);
+//        //my.remove(0);
+//        System.out.println(my.get(0));
 
 //          ArrayList
 
@@ -65,5 +71,5 @@ public class Main {
 //        nod.put(1, "1");
 //        nod.put(1, "2");
 //        System.out.println(nod);
-//    }
+    }
 }

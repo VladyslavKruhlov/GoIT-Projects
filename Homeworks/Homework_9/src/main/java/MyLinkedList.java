@@ -84,7 +84,7 @@ class MyLinkedList <T> {
 
     //      МЕТОД GET
 
-    public Object get(int index) {
+    public T get(int index) {
         Objects.checkIndex(index, size);
         Node<T> current = firstNode;
         for(int i=0; i<index;i++){

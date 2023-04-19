@@ -26,6 +26,8 @@ class MyHashMap<K, V> {
         return secondTable.getKey() == myHashMap && secondTable.getValue() == myHashMap;
     }
 
+    //      МЕТОД PUT
+
     public void put(K key, V value) {
         index = key.hashCode() % size - 1;
 
@@ -68,6 +70,8 @@ class MyHashMap<K, V> {
         }
     }
 
+    //      МЕТОД GET
+
     public V get(K key) {
         V value = null;
         index = key.hashCode() % size - 1;
@@ -81,7 +85,9 @@ class MyHashMap<K, V> {
         return value;
     }
 
-    public Object remove(K key) {
+    //      МЕТОД REMOVE
+
+    public void remove(K key) {
         Nod<K, V> removeTable = null;
         index = key.hashCode() % size - 1;
         Nod<K, V> secondTable = table[index];
@@ -90,12 +96,15 @@ class MyHashMap<K, V> {
             table[index] = null;
         }
         length--;
-        return removeTable.getKey() + "=" + removeTable.getValue();
     }
+
+    //      МЕТОД SIZE
 
     public int size() {
         return length;
     }
+
+    //      МЕТОД CLEAR
 
     public Nod<K, V>[] clear() {
         length = 0;
