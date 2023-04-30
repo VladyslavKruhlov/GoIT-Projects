@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class Task1 {
     public static void main(String[] args){
 
-        File file = new File("C:\\GoIT-Projects\\Homeworks\\Homework_10\\homework_10\\files\\phones.txt");
+        File file = new File("homework_10/files/phones.txt");
 
         Pattern pattern = Pattern.compile("^\\(\\d{3}\\) \\d{3}-\\d{4}$");
         Pattern pattern1 = Pattern.compile("^\\d{3}-\\d{3}-\\d{4}$");

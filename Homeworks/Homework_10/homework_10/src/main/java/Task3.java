@@ -6,7 +6,7 @@ public class Task3 {
     public static void main(String[] args){
         Map<String, Integer> counter = new HashMap<>();
         try {
-            File file = new File("files/words.txt");
+            File file = new File("homework_10/files/words.txt");
             InputStream fis = new FileInputStream(file);
             Scanner scanner = new Scanner(fis);
             while (scanner.hasNext()){
