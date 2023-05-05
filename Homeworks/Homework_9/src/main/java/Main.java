@@ -39,7 +39,7 @@ public class Main {
 //        my.remove(2);
 //        System.out.println(my);
 //        System.out.println(my.size());
-//        System.out.println(my.clear());
+//        my.clear();
 //        my.add("o");
 //        System.out.println(my);
 
@@ -52,7 +52,7 @@ public class Main {
 //        myQueue.add(2);
 //        myQueue.add(2);
 //
-//        myQueue.clear();
+//        //myQueue.clear();
 //        System.out.println(myQueue);
 //        System.out.println(myQueue.size());
 

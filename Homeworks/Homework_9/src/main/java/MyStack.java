@@ -6,21 +6,21 @@ public class MyStack<T> {
 
     public Object[] getMyStack() {return myStack;}
 
-    public Object firstElement;
+    public T firstElement;
 
     //          МЕТОД PUSH
-    public Object push(T value){
+    public void push(T value){
 
         int size = myStack.length;
         size++;
         Object [] newStack = Arrays.copyOf(myStack, size);
         newStack[size-1] = value;
-        return myStack = newStack;
+        myStack = newStack;
     }
 
     //          МЕТОД REMOVE
 
-    public Object[] remove (int value){
+    public void remove (int value){
         int size = myStack.length;
         size--;
         Object[] newStack = new Object[size];
@@ -32,11 +32,11 @@ public class MyStack<T> {
                 index++;
             }
         }
-        return myStack = newStack;
+        myStack = newStack;
     }
 
     //          МЕТОД SIZE
-    public Object size(){
+    public int size(){
         return myStack.length;
     }
 
@@ -46,16 +46,16 @@ public class MyStack<T> {
     }
 
     //          МЕТОД PEEK
-    public Object peek(){
-        if(myStack.length>0){ firstElement = myStack[myStack.length-1];}
+    public T peek(){
+        if(myStack.length>0){ firstElement = (T)myStack[myStack.length-1];}
         else{System.out.print("Array is empty, length is ");}
         return firstElement;
     }
 
     //          МЕТОД POP
-    public Object pop() {
+    public T pop() {
         if (myStack.length > 0) {
-            firstElement = myStack[myStack.length-1];
+            firstElement = (T)myStack[myStack.length-1];
         } else {
             System.out.print("Array is empty, length is ");
         }

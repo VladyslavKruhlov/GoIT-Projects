@@ -5,31 +5,30 @@ public class MyQueue <T>{
 
     public Object[] getMyQueue() {return myQueue;}
 
-    public Object firstElement;
+    public T firstElement;
 
 
     //      МЕТОД ADD
-    public Object[] add(T value){
+    public void add(T value){
         int size = myQueue.length;
         size++;
         Object [] addQueue = Arrays.copyOf(myQueue, size);
         addQueue [size-1] = value;
         myQueue = addQueue;
-        return myQueue;
     }
 
     //      МЕТОД PEEK
-    public Object peek(){
-        if(myQueue.length>0){ firstElement = myQueue[0];}
+    public T peek(){
+        if(myQueue.length>0){ firstElement = (T) myQueue[0];}
         else{System.out.print("Array is empty, length is ");}
         return firstElement;
     }
 
     //      МЕТОД POLL
 
-    public Object poll() {
+    public T poll() {
         if (myQueue.length > 0) {
-            firstElement = myQueue[0];
+            firstElement = (T) myQueue[0];
         } else {
             System.out.print("Array is empty, length is ");
         }

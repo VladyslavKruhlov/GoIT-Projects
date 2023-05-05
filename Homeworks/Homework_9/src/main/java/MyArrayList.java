@@ -6,16 +6,16 @@ public class MyArrayList<T> {
     public Object[] getMyArray() {return myArray;}
 
     //      МЕТОД ADD
-    public Object  add(T value) {
+    public void add(T value) {
         int size = myArray.length;
         size++;
         Object [] workArray = Arrays.copyOf(myArray, size);
         workArray[size-1] = value;
-        return myArray = workArray;
+        myArray = workArray;
     }
 
     //      МЕТОД REMOVE
-    public Object remove(int value){
+    public void remove(int value){
         int size = myArray.length;
         Object [] newArray = new Object[myArray.length];
         Object [] workArray = new Object[newArray.length-1];
@@ -27,15 +27,15 @@ public class MyArrayList<T> {
         }
         workArray = Arrays.copyOf(newArray, workArray.length);
 
-        return myArray = workArray;
+        myArray = workArray;
     }
 
     //      МЕТОД GET
-    public Object get(int value){
+    public T get(int value){
         if(myArray.length>value){
-            return myArray[value];}
+            return (T)myArray[value];}
         else {
-            return Exception.class;}
+            return (T)Exception.class;}
     }
 
     //      МЕТОД CLEAR
@@ -43,7 +43,7 @@ public class MyArrayList<T> {
         myArray = new Object[0];}
 
     //      МЕТОД SIZE
-    public Object size(){
+    public int size(){
         int size = myArray.length;
         return size;
     }
