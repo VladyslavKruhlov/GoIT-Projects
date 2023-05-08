@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b962cf93-a1e8-4a15-8c71-ca78179060ff" name="Changes" comment="" />
+    <list default="true" id="b962cf93-a1e8-4a15-8c71-ca78179060ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Homework13/src/main/java/Task1/GetUserByNameForTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework13/src/main/java/Task1/GetUserByNameForTask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework13/src/main/java/Task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework13/src/main/java/Task1/Task1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PQ2l5yXZImts8xh59bTusQs78D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,7 +25,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/GoIT-Projects/Homeworks/Homework_13/Homework13"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
