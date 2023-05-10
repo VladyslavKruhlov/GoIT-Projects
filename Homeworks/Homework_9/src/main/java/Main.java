@@ -3,17 +3,18 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-public class Main {
-    public static void main(String[] args) {
-
-//          HashMap
-
+//public class Main {
+//    public static void main(String[] args) {
+//
+////          HashMap
+//
 //        MyHashMap<String, Integer> nod = new MyHashMap<>();
 //        nod.put("S", 1);
 //        nod.put("R", 2);
 //        nod.remove("S");
-//        //nod.clear();
-//        System.out.println(nod.get("S"));
+//        nod.clear();
+//        //System.out.println(nod.get("S"));
+//        System.out.println(nod.size);
 //    }
 //
 //          LinkedList
@@ -71,5 +72,5 @@ public class Main {
 //        nod.put(1, "1");
 //        nod.put(1, "2");
 //        System.out.println(nod);
-    }
-}
+    //}
+//}
