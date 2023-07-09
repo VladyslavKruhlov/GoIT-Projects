@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b962cf93-a1e8-4a15-8c71-ca78179060ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Homework13/src/main/java/Task1/GetUserByNameForTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework13/src/main/java/Task1/GetUserByNameForTask1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework13/src/main/java/Task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework13/src/main/java/Task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewotk1DevMaven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/src/main/java/com/telegramBot/User/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/src/main/java/com/telegramBot/bank/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/AppLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/User/DefaultSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/User/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/User/UserSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/User/UserSettingsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/BankEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/Mono/CurrencyRateMonoResponceDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/Mono/Monobank$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/Mono/Monobank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/NBU/NBU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/NBU/NBUdto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/Privat/GetCurrencyPrivatbank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/Privat/Privatbank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/bank/Privat/PrivatbankDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/telegram/CurrencyTelegramBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/telegram/StartCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-core-project-group-5-master/target/classes/com/telegramBot/telegram/TelegramBotRead.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/GoIT-Projects/Homeworks/Homework_13/Homework13"
+    "last_opened_file_path": "C:/GoIT-Projects/Homeworks/Homework_13"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
