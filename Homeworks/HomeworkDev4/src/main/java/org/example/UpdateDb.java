@@ -1,7 +1,10 @@
 package org.example;
 
+import DTO.*;
+
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.List;
 
 public class UpdateDb {
 
@@ -11,30 +14,25 @@ public class UpdateDb {
         Database database = Database.getInstance();
 
 //                       ADD TABLES
-        new DatabaseInitService().initDb(database);
+//        new DatabaseInitService().initDb(database);
 
 //                       FILL TABLES
-        new DatabasePopulateService().populateDb(database);
+//        new DatabasePopulateService().populateDb(database);
 
 //                       FIND_MAX_PROJECT_CLIENT
-        new DatabaseQueryService().queryMaxProjClient(database);
-        System.out.println("****************************************************");
+        List<MaxProjectClient> maxProjectClients = new DatabaseQueryService().queryMaxProjectClient(database);
 
 //                       FIND_LONGEST_PROJECT
-        new DatabaseQueryService().queryLongestProj(database);
-        System.out.println("****************************************************");
+        List<LongestProject> longestProjects = new DatabaseQueryService().queryLongestProject(database);
 
 //                       FIND_MAX_SALARY_WORKER
-        new DatabaseQueryService().queryMaxSalaryWorker(database);
-        System.out.println("****************************************************");
+        List<MaxSalaryWorker> maxSalaryWorkers = new DatabaseQueryService().queryMaxSalaryWorker(database);
 
 //                       FIND_YOUNGEST_ELDEST_WORKERS
-        new DatabaseQueryService().queryYoungestEldestWorkers(database);
-        System.out.println("****************************************************");
+        List<YoungestEldestWorkers> youngestEldestWorkers = new DatabaseQueryService().queryYoungestEldestWorkers(database);
 
 //                       FIND_PROJECT_PRICE
-        new DatabaseQueryService().queryProjectPrices(database);
-        System.out.println("****************************************************");
+        List<ProjectPrices> projectPrices = new DatabaseQueryService().queryProjectPrices(database);
 
 //                       CREATE TABLE
 //          database.executeUpdate("CREATE TABLE test_table (name VARCHAR(100))");
