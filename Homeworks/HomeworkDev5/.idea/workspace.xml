@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1816111-b9d3-4a77-af58-7b927220f690" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/DatabaseQueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/DatabaseQueryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Prefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Prefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/UpdateDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/UpdateDb.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

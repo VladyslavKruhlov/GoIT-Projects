@@ -1,0 +1,39 @@
+buildscript {
+    dependencies {
+        classpath 'com.h2database:h2:2.2.220'
+    }
+}
+
+plugins {
+    id 'java'
+    id "org.flywaydb.flyway" version "9.22.0"
+}
+flyway {
+    url = 'jdbc:h2:./test'
+    user = 'sa'
+    password = ''
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    gradlePluginPortal()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    implementation 'com.google.guava:guava:32.0.1-jre'
+        // https://mvnrepository.com/artifact/com.h2database/h2
+    implementation 'com.h2database:h2:2.2.220'
+        // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'org.flywaydb:flyway-core:9.22.0'
+}
+
+
+test {
+    useJUnitPlatform()
+}

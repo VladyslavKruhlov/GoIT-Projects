@@ -1,0 +1,5 @@
+{
+  "dbUrl": "jdbc:h2:./test",
+  "initDbSql": "db/migration/V1__init_db.sql",
+  "populateDb": "db/migration/V2__populate_db.sql"
+}
