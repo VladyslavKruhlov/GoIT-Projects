@@ -1,5 +1,4 @@
 package org.example;
-
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 import org.thymeleaf.templateresolver.FileTemplateResolver;
@@ -50,6 +49,10 @@ public class TimeServlet extends HttpServlet {
             resp.addCookie(new Cookie("lastTimezone", timeZone));
         } else {
             timeZone = isThereACookie(req);
+            if (timeZone == null) {
+                timeZone = "UTC+2";
+                resp.addCookie(new Cookie("lastTimezone", timeZone));
+            }
         }
         return ZonedDateTime.now(ZoneId.of(timeZone))
                 .format(DateTimeFormatter.ofPattern("yyyy-dd-MM HH:mm:ss")) + " " + timeZone;

@@ -28,6 +28,7 @@ public class TimezoneValidateFilter extends HttpFilter {
     }
     private boolean isValidTimezone(String timezone) {
         return !Objects.equals(TimeZone.getTimeZone(timezone), "GMT");
+        //return !timezone.isEmpty();
 
     }
 }
