@@ -50,8 +50,7 @@ public class TimeServlet extends HttpServlet {
         } else {
             timeZone = isThereACookie(req);
             if (timeZone == null) {
-                timeZone = "UTC+2";
-                resp.addCookie(new Cookie("lastTimezone", timeZone));
+                timeZone = "UTC";
             }
         }
         return ZonedDateTime.now(ZoneId.of(timeZone))
